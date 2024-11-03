@@ -1,0 +1,38 @@
+﻿@page "/Install"
+
+<PageTitle>Install</PageTitle>
+
+<h1>Install</h1>
+
+<p role="status">You can install IB Lightning CLI from the following locations:</p>
+<center>
+
+    <button class="btn btn-primary" onclick='location="https://github.com/BinaryGalaxy1/IBLightning-Release/releases/download/v0.9.3/IBLightning.exe"'>Github</button>
+<button class="btn btn-primary" onclick='location="https://apps.microsoft.com/"'>Microsoft Store (Coming Soon)</button>
+
+</center>
+
+<br />
+<p>
+<h3>Usage Requirements</h3>
+<ul>
+    <li>
+    To use the CLI to interact with Interactive Brokers, you should have the Interactive Brokers (IBKR) Trader Workstation desktop application installed.</li>
+    <li>
+    You should have an active Interactive Brokers account.</li>
+    <li>
+    Check the "Enable ActiveX and Socket Clients" check box option in the Trader Workstation API configuration options.  <br />
+    Specifically:<br />
+    <div>
+        Click on the File tab in Trader Workstation (TWS). Click on the “Global configuration” under the “Application Settings” section. Click on the “API-Settings” under the “Configuration” folder shown on the left-hand side panel. Check the “Enable ActiveX and Socket Clients” box.
+        <a href="https://ibkrcampus.com/trading-lessons/configuring-ibs-trader-workstation/#:~:text=Click%20on%20the%20File%20tab,ActiveX%20and%20Socket%20Clients%E2%80%9D%20box.">Configuring Trader Workstation for API usage.</a>
+    </div>
+    </li>
+</ul>
+</p>
+<p></p>
+<p>
+    Always test the CLI functions you wish to use with the IB 'paper' account before using with a real account.
+</p>
+<p>Happy Trading!
+</p>
