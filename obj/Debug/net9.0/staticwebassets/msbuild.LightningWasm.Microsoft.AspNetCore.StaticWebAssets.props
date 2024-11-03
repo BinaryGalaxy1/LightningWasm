@@ -912,8 +912,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>mg1v6fijiz</Fingerprint>
-      <Integrity>Jls7W0t8vwwZZmHI1E5Ec5bPIcgIVKi66zMXlTghFXQ=</Integrity>
+      <Fingerprint>hwwc1j4foc</Fingerprint>
+      <Integrity>kf4mvzw6IZtkLMXRPhjBkC++EDbb3M+EEIMluoYUAfw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\mainLogo.gif'))</OriginalItemSpec>
@@ -930,8 +930,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>c16524uoie</Fingerprint>
-      <Integrity>0F/lofpdQc0I8INpML6qHhM4ft9Y3X0zMV95lrC1UqQ=</Integrity>
+      <Fingerprint>goj2v9k96g</Fingerprint>
+      <Integrity>4GwA0L1K6/Pn/sgAcGOZ5/mmtSelx3U39oLdiHn1meY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\mainlogo.png'))</OriginalItemSpec>

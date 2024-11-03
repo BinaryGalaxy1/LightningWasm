@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ll1uZdUSEtgEG7Zmw2BSFY25gyuB68P/m0u6BRSKvNo=",
+  "Hash": "tNoDiWr+Nut9UstNyCR2goOKKkcK0IqZNO9wyDtVjBE=",
   "Source": "LightningWasm",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "onaa4idcnt",
-      "Integrity": "jM8Yqtn6+x3D//oTiRSeIYzPQ6EnygLD/LkoAz21Vkc=",
+      "Fingerprint": "xnxaucjvx3",
+      "Integrity": "E7nSXueM6YudVMvxyZUleqlOoxOFKz/RW481qHqjXLc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -262,8 +262,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "giidcwadx4",
-      "Integrity": "+IrC4M8zZIAHGuMKhL65uLuw1IsS2Xo35XPNmW4+Ov0=",
+      "Fingerprint": "gctjjzlcem",
+      "Integrity": "sDWpYZtWpMKsbtSQYBu9qQq/kebIC1oCw+aW6f4bTd8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\LightningWasm.pdb"
@@ -283,8 +283,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "1msruqjbcr",
-      "Integrity": "mT8M3FpL70VJBlDt8GF9O7SRYfFm7kyRNO2Ad1OSu10=",
+      "Fingerprint": "p95p06cmos",
+      "Integrity": "EwHoahUWUm64rRnQY+s6tlO/qNs66DyegOAu+GiVm3Q=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\webcil\\LightningWasm.wasm"
@@ -6422,12 +6422,12 @@
       "OriginalItemSpec": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Reflection.Emit.ILGeneration.wasm"
     },
     {
-      "Identity": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\compressed\\et3e8w3dzd-1msruqjbcr.gz",
+      "Identity": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\compressed\\et3e8w3dzd-p95p06cmos.gz",
       "SourceId": "LightningWasm",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/LightningWasm#[.{fingerprint=1msruqjbcr}]!.wasm.gz",
+      "RelativePath": "_framework/LightningWasm#[.{fingerprint=p95p06cmos}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6436,8 +6436,8 @@
       "RelatedAsset": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\bin\\Debug\\net9.0\\wwwroot\\_framework\\LightningWasm.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "njzgryoi9m",
-      "Integrity": "DSUrhpBbB7j8UJYk6rZEQr2Lx9+m5dILdCTi7VM88Cc=",
+      "Fingerprint": "3pvfukpfdp",
+      "Integrity": "N0wQsA+hPgFQWQBPqlQ4Bn+BDIV3roj+9CM0XQ5SYIE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\bin\\Debug\\net9.0\\wwwroot\\_framework\\LightningWasm.wasm"
@@ -6485,12 +6485,12 @@
       "OriginalItemSpec": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.wasm"
     },
     {
-      "Identity": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\compressed\\f908ra4aa7-giidcwadx4.gz",
+      "Identity": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\compressed\\f908ra4aa7-gctjjzlcem.gz",
       "SourceId": "LightningWasm",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/LightningWasm#[.{fingerprint=giidcwadx4}]!.pdb.gz",
+      "RelativePath": "_framework/LightningWasm#[.{fingerprint=gctjjzlcem}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6499,8 +6499,8 @@
       "RelatedAsset": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\bin\\Debug\\net9.0\\wwwroot\\_framework\\LightningWasm.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "eifvbcflox",
-      "Integrity": "utQ2uQZjcZPIHU1H8Ows/WF/RrHlUop2MfnXaVA9eek=",
+      "Fingerprint": "eemcv2k721",
+      "Integrity": "mjwgl9O6V1a+yQlSFniiyBGscn0CyUPe50IRCeGShwY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\bin\\Debug\\net9.0\\wwwroot\\_framework\\LightningWasm.pdb"
@@ -7766,7 +7766,7 @@
       "OriginalItemSpec": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.wasm"
     },
     {
-      "Identity": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\compressed\\n1u06em2o0-onaa4idcnt.gz",
+      "Identity": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\compressed\\n1u06em2o0-xnxaucjvx3.gz",
       "SourceId": "LightningWasm",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\compressed\\",
@@ -7780,8 +7780,8 @@
       "RelatedAsset": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "6t3cfyg891",
-      "Integrity": "StWiuLzb/cYnC/7JShHe8nKHD9WPnXi6PCEx3wMV4cQ=",
+      "Fingerprint": "0duh5bjjk9",
+      "Integrity": "9NTmsNj5XS0s9oQnMromWkXHhmAB6g/K7ZTsKPXXSzg=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -10720,8 +10720,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "mg1v6fijiz",
-      "Integrity": "Jls7W0t8vwwZZmHI1E5Ec5bPIcgIVKi66zMXlTghFXQ=",
+      "Fingerprint": "hwwc1j4foc",
+      "Integrity": "kf4mvzw6IZtkLMXRPhjBkC++EDbb3M+EEIMluoYUAfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\mainLogo.gif"
@@ -10741,8 +10741,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c16524uoie",
-      "Integrity": "0F/lofpdQc0I8INpML6qHhM4ft9Y3X0zMV95lrC1UqQ=",
+      "Fingerprint": "goj2v9k96g",
+      "Integrity": "4GwA0L1K6/Pn/sgAcGOZ5/mmtSelx3U39oLdiHn1meY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\mainlogo.png"
@@ -10789,11 +10789,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jM8Yqtn6+x3D//oTiRSeIYzPQ6EnygLD/LkoAz21Vkc=\""
+          "Value": "\"E7nSXueM6YudVMvxyZUleqlOoxOFKz/RW481qHqjXLc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 03 Nov 2024 15:51:00 GMT"
+          "Value": "Sun, 03 Nov 2024 18:20:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10803,18 +10803,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jM8Yqtn6+x3D//oTiRSeIYzPQ6EnygLD/LkoAz21Vkc="
+          "Value": "sha256-E7nSXueM6YudVMvxyZUleqlOoxOFKz/RW481qHqjXLc="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\compressed\\n1u06em2o0-onaa4idcnt.gz",
+      "AssetFile": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\compressed\\n1u06em2o0-xnxaucjvx3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000081247969"
+          "Quality": "0.000081241368"
         }
       ],
       "ResponseHeaders": [
@@ -10824,15 +10824,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12307"
+          "Value": "12308"
         },
         {
           "Name": "ETag",
-          "Value": "\"StWiuLzb/cYnC/7JShHe8nKHD9WPnXi6PCEx3wMV4cQ=\""
+          "Value": "\"9NTmsNj5XS0s9oQnMromWkXHhmAB6g/K7ZTsKPXXSzg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 03 Nov 2024 15:50:54 GMT"
+          "Value": "Sun, 03 Nov 2024 18:19:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10852,19 +10852,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"jM8Yqtn6+x3D//oTiRSeIYzPQ6EnygLD/LkoAz21Vkc=\""
+          "Value": "W/\"E7nSXueM6YudVMvxyZUleqlOoxOFKz/RW481qHqjXLc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jM8Yqtn6+x3D//oTiRSeIYzPQ6EnygLD/LkoAz21Vkc="
+          "Value": "sha256-E7nSXueM6YudVMvxyZUleqlOoxOFKz/RW481qHqjXLc="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\compressed\\n1u06em2o0-onaa4idcnt.gz",
+      "AssetFile": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\compressed\\n1u06em2o0-xnxaucjvx3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10873,7 +10873,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12307"
+          "Value": "12308"
         },
         {
           "Name": "Content-Type",
@@ -10881,11 +10881,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"StWiuLzb/cYnC/7JShHe8nKHD9WPnXi6PCEx3wMV4cQ=\""
+          "Value": "\"9NTmsNj5XS0s9oQnMromWkXHhmAB6g/K7ZTsKPXXSzg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 03 Nov 2024 15:50:54 GMT"
+          "Value": "Sun, 03 Nov 2024 18:19:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10903,7 +10903,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-StWiuLzb/cYnC/7JShHe8nKHD9WPnXi6PCEx3wMV4cQ="
+          "Value": "sha256-9NTmsNj5XS0s9oQnMromWkXHhmAB6g/K7ZTsKPXXSzg="
         }
       ]
     },
@@ -13727,168 +13727,7 @@
       ]
     },
     {
-      "Route": "_framework/LightningWasm.1msruqjbcr.wasm",
-      "AssetFile": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\bin\\Debug\\net9.0\\wwwroot\\_framework\\LightningWasm.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "50965"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mT8M3FpL70VJBlDt8GF9O7SRYfFm7kyRNO2Ad1OSu10=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 03 Nov 2024 15:50:53 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "1msruqjbcr"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/LightningWasm.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-mT8M3FpL70VJBlDt8GF9O7SRYfFm7kyRNO2Ad1OSu10="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/LightningWasm.1msruqjbcr.wasm",
-      "AssetFile": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\compressed\\et3e8w3dzd-1msruqjbcr.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000065984823"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "15154"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DSUrhpBbB7j8UJYk6rZEQr2Lx9+m5dILdCTi7VM88Cc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 03 Nov 2024 15:50:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"mT8M3FpL70VJBlDt8GF9O7SRYfFm7kyRNO2Ad1OSu10=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "1msruqjbcr"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/LightningWasm.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-mT8M3FpL70VJBlDt8GF9O7SRYfFm7kyRNO2Ad1OSu10="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/LightningWasm.1msruqjbcr.wasm.gz",
-      "AssetFile": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\compressed\\et3e8w3dzd-1msruqjbcr.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "15154"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DSUrhpBbB7j8UJYk6rZEQr2Lx9+m5dILdCTi7VM88Cc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 03 Nov 2024 15:50:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "1msruqjbcr"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/LightningWasm.wasm.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-DSUrhpBbB7j8UJYk6rZEQr2Lx9+m5dILdCTi7VM88Cc="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/LightningWasm.giidcwadx4.pdb",
+      "Route": "_framework/LightningWasm.gctjjzlcem.pdb",
       "AssetFile": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\bin\\Debug\\net9.0\\wwwroot\\_framework\\LightningWasm.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -13898,7 +13737,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "36288"
+          "Value": "36488"
         },
         {
           "Name": "Content-Type",
@@ -13906,11 +13745,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+IrC4M8zZIAHGuMKhL65uLuw1IsS2Xo35XPNmW4+Ov0=\""
+          "Value": "\"sDWpYZtWpMKsbtSQYBu9qQq/kebIC1oCw+aW6f4bTd8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 03 Nov 2024 15:50:53 GMT"
+          "Value": "Sun, 03 Nov 2024 18:20:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13920,7 +13759,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "giidcwadx4"
+          "Value": "gctjjzlcem"
         },
         {
           "Name": "label",
@@ -13928,18 +13767,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+IrC4M8zZIAHGuMKhL65uLuw1IsS2Xo35XPNmW4+Ov0="
+          "Value": "sha256-sDWpYZtWpMKsbtSQYBu9qQq/kebIC1oCw+aW6f4bTd8="
         }
       ]
     },
     {
-      "Route": "_framework/LightningWasm.giidcwadx4.pdb",
-      "AssetFile": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\compressed\\f908ra4aa7-giidcwadx4.gz",
+      "Route": "_framework/LightningWasm.gctjjzlcem.pdb",
+      "AssetFile": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\compressed\\f908ra4aa7-gctjjzlcem.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000033950093"
+          "Quality": "0.000033754135"
         }
       ],
       "ResponseHeaders": [
@@ -13949,15 +13788,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "29454"
+          "Value": "29625"
         },
         {
           "Name": "ETag",
-          "Value": "\"utQ2uQZjcZPIHU1H8Ows/WF/RrHlUop2MfnXaVA9eek=\""
+          "Value": "\"mjwgl9O6V1a+yQlSFniiyBGscn0CyUPe50IRCeGShwY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 03 Nov 2024 15:50:54 GMT"
+          "Value": "Sun, 03 Nov 2024 18:20:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13977,13 +13816,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"+IrC4M8zZIAHGuMKhL65uLuw1IsS2Xo35XPNmW4+Ov0=\""
+          "Value": "W/\"sDWpYZtWpMKsbtSQYBu9qQq/kebIC1oCw+aW6f4bTd8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "giidcwadx4"
+          "Value": "gctjjzlcem"
         },
         {
           "Name": "label",
@@ -13991,13 +13830,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+IrC4M8zZIAHGuMKhL65uLuw1IsS2Xo35XPNmW4+Ov0="
+          "Value": "sha256-sDWpYZtWpMKsbtSQYBu9qQq/kebIC1oCw+aW6f4bTd8="
         }
       ]
     },
     {
-      "Route": "_framework/LightningWasm.giidcwadx4.pdb.gz",
-      "AssetFile": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\compressed\\f908ra4aa7-giidcwadx4.gz",
+      "Route": "_framework/LightningWasm.gctjjzlcem.pdb.gz",
+      "AssetFile": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\compressed\\f908ra4aa7-gctjjzlcem.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14006,7 +13845,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "29454"
+          "Value": "29625"
         },
         {
           "Name": "Content-Type",
@@ -14014,11 +13853,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"utQ2uQZjcZPIHU1H8Ows/WF/RrHlUop2MfnXaVA9eek=\""
+          "Value": "\"mjwgl9O6V1a+yQlSFniiyBGscn0CyUPe50IRCeGShwY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 03 Nov 2024 15:50:54 GMT"
+          "Value": "Sun, 03 Nov 2024 18:20:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14036,7 +13875,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "giidcwadx4"
+          "Value": "gctjjzlcem"
         },
         {
           "Name": "label",
@@ -14044,7 +13883,168 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-utQ2uQZjcZPIHU1H8Ows/WF/RrHlUop2MfnXaVA9eek="
+          "Value": "sha256-mjwgl9O6V1a+yQlSFniiyBGscn0CyUPe50IRCeGShwY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/LightningWasm.p95p06cmos.wasm",
+      "AssetFile": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\bin\\Debug\\net9.0\\wwwroot\\_framework\\LightningWasm.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50965"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EwHoahUWUm64rRnQY+s6tlO/qNs66DyegOAu+GiVm3Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Nov 2024 18:20:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p95p06cmos"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/LightningWasm.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EwHoahUWUm64rRnQY+s6tlO/qNs66DyegOAu+GiVm3Q="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/LightningWasm.p95p06cmos.wasm",
+      "AssetFile": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\compressed\\et3e8w3dzd-p95p06cmos.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000065483596"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15270"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N0wQsA+hPgFQWQBPqlQ4Bn+BDIV3roj+9CM0XQ5SYIE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Nov 2024 18:20:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"EwHoahUWUm64rRnQY+s6tlO/qNs66DyegOAu+GiVm3Q=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p95p06cmos"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/LightningWasm.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EwHoahUWUm64rRnQY+s6tlO/qNs66DyegOAu+GiVm3Q="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/LightningWasm.p95p06cmos.wasm.gz",
+      "AssetFile": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\compressed\\et3e8w3dzd-p95p06cmos.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15270"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N0wQsA+hPgFQWQBPqlQ4Bn+BDIV3roj+9CM0XQ5SYIE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Nov 2024 18:20:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p95p06cmos"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/LightningWasm.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N0wQsA+hPgFQWQBPqlQ4Bn+BDIV3roj+9CM0XQ5SYIE="
         }
       ]
     },
@@ -14059,7 +14059,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "36288"
+          "Value": "36488"
         },
         {
           "Name": "Content-Type",
@@ -14067,11 +14067,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+IrC4M8zZIAHGuMKhL65uLuw1IsS2Xo35XPNmW4+Ov0=\""
+          "Value": "\"sDWpYZtWpMKsbtSQYBu9qQq/kebIC1oCw+aW6f4bTd8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 03 Nov 2024 15:50:53 GMT"
+          "Value": "Sun, 03 Nov 2024 18:20:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14081,18 +14081,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+IrC4M8zZIAHGuMKhL65uLuw1IsS2Xo35XPNmW4+Ov0="
+          "Value": "sha256-sDWpYZtWpMKsbtSQYBu9qQq/kebIC1oCw+aW6f4bTd8="
         }
       ]
     },
     {
       "Route": "_framework/LightningWasm.pdb",
-      "AssetFile": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\compressed\\f908ra4aa7-giidcwadx4.gz",
+      "AssetFile": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\compressed\\f908ra4aa7-gctjjzlcem.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000033950093"
+          "Quality": "0.000033754135"
         }
       ],
       "ResponseHeaders": [
@@ -14102,15 +14102,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "29454"
+          "Value": "29625"
         },
         {
           "Name": "ETag",
-          "Value": "\"utQ2uQZjcZPIHU1H8Ows/WF/RrHlUop2MfnXaVA9eek=\""
+          "Value": "\"mjwgl9O6V1a+yQlSFniiyBGscn0CyUPe50IRCeGShwY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 03 Nov 2024 15:50:54 GMT"
+          "Value": "Sun, 03 Nov 2024 18:20:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14130,19 +14130,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"+IrC4M8zZIAHGuMKhL65uLuw1IsS2Xo35XPNmW4+Ov0=\""
+          "Value": "W/\"sDWpYZtWpMKsbtSQYBu9qQq/kebIC1oCw+aW6f4bTd8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+IrC4M8zZIAHGuMKhL65uLuw1IsS2Xo35XPNmW4+Ov0="
+          "Value": "sha256-sDWpYZtWpMKsbtSQYBu9qQq/kebIC1oCw+aW6f4bTd8="
         }
       ]
     },
     {
       "Route": "_framework/LightningWasm.pdb.gz",
-      "AssetFile": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\compressed\\f908ra4aa7-giidcwadx4.gz",
+      "AssetFile": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\compressed\\f908ra4aa7-gctjjzlcem.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14151,7 +14151,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "29454"
+          "Value": "29625"
         },
         {
           "Name": "Content-Type",
@@ -14159,11 +14159,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"utQ2uQZjcZPIHU1H8Ows/WF/RrHlUop2MfnXaVA9eek=\""
+          "Value": "\"mjwgl9O6V1a+yQlSFniiyBGscn0CyUPe50IRCeGShwY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 03 Nov 2024 15:50:54 GMT"
+          "Value": "Sun, 03 Nov 2024 18:20:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14181,7 +14181,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-utQ2uQZjcZPIHU1H8Ows/WF/RrHlUop2MfnXaVA9eek="
+          "Value": "sha256-mjwgl9O6V1a+yQlSFniiyBGscn0CyUPe50IRCeGShwY="
         }
       ]
     },
@@ -14204,11 +14204,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mT8M3FpL70VJBlDt8GF9O7SRYfFm7kyRNO2Ad1OSu10=\""
+          "Value": "\"EwHoahUWUm64rRnQY+s6tlO/qNs66DyegOAu+GiVm3Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 03 Nov 2024 15:50:53 GMT"
+          "Value": "Sun, 03 Nov 2024 18:20:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14218,18 +14218,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mT8M3FpL70VJBlDt8GF9O7SRYfFm7kyRNO2Ad1OSu10="
+          "Value": "sha256-EwHoahUWUm64rRnQY+s6tlO/qNs66DyegOAu+GiVm3Q="
         }
       ]
     },
     {
       "Route": "_framework/LightningWasm.wasm",
-      "AssetFile": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\compressed\\et3e8w3dzd-1msruqjbcr.gz",
+      "AssetFile": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\compressed\\et3e8w3dzd-p95p06cmos.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000065984823"
+          "Quality": "0.000065483596"
         }
       ],
       "ResponseHeaders": [
@@ -14239,15 +14239,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15154"
+          "Value": "15270"
         },
         {
           "Name": "ETag",
-          "Value": "\"DSUrhpBbB7j8UJYk6rZEQr2Lx9+m5dILdCTi7VM88Cc=\""
+          "Value": "\"N0wQsA+hPgFQWQBPqlQ4Bn+BDIV3roj+9CM0XQ5SYIE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 03 Nov 2024 15:50:54 GMT"
+          "Value": "Sun, 03 Nov 2024 18:20:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14267,19 +14267,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"mT8M3FpL70VJBlDt8GF9O7SRYfFm7kyRNO2Ad1OSu10=\""
+          "Value": "W/\"EwHoahUWUm64rRnQY+s6tlO/qNs66DyegOAu+GiVm3Q=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mT8M3FpL70VJBlDt8GF9O7SRYfFm7kyRNO2Ad1OSu10="
+          "Value": "sha256-EwHoahUWUm64rRnQY+s6tlO/qNs66DyegOAu+GiVm3Q="
         }
       ]
     },
     {
       "Route": "_framework/LightningWasm.wasm.gz",
-      "AssetFile": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\compressed\\et3e8w3dzd-1msruqjbcr.gz",
+      "AssetFile": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\Debug\\net9.0\\compressed\\et3e8w3dzd-p95p06cmos.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14288,7 +14288,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15154"
+          "Value": "15270"
         },
         {
           "Name": "Content-Type",
@@ -14296,11 +14296,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DSUrhpBbB7j8UJYk6rZEQr2Lx9+m5dILdCTi7VM88Cc=\""
+          "Value": "\"N0wQsA+hPgFQWQBPqlQ4Bn+BDIV3roj+9CM0XQ5SYIE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 03 Nov 2024 15:50:54 GMT"
+          "Value": "Sun, 03 Nov 2024 18:20:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14318,7 +14318,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DSUrhpBbB7j8UJYk6rZEQr2Lx9+m5dILdCTi7VM88Cc="
+          "Value": "sha256-N0wQsA+hPgFQWQBPqlQ4Bn+BDIV3roj+9CM0XQ5SYIE="
         }
       ]
     },
@@ -86007,51 +86007,6 @@
       ]
     },
     {
-      "Route": "mainlogo.c16524uoie.png",
-      "AssetFile": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\wwwroot\\mainlogo.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "14552"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0F/lofpdQc0I8INpML6qHhM4ft9Y3X0zMV95lrC1UqQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 30 Oct 2024 20:44:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c16524uoie"
-        },
-        {
-          "Name": "label",
-          "Value": "mainlogo.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-0F/lofpdQc0I8INpML6qHhM4ft9Y3X0zMV95lrC1UqQ="
-        }
-      ]
-    },
-    {
       "Route": "mainLogo.gif",
       "AssetFile": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\wwwroot\\mainLogo.gif",
       "Selectors": [],
@@ -86062,7 +86017,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "58936"
+          "Value": "61940"
         },
         {
           "Name": "Content-Type",
@@ -86070,11 +86025,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Jls7W0t8vwwZZmHI1E5Ec5bPIcgIVKi66zMXlTghFXQ=\""
+          "Value": "\"kf4mvzw6IZtkLMXRPhjBkC++EDbb3M+EEIMluoYUAfw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Oct 2024 20:44:10 GMT"
+          "Value": "Sun, 03 Nov 2024 17:54:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -86084,13 +86039,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Jls7W0t8vwwZZmHI1E5Ec5bPIcgIVKi66zMXlTghFXQ="
+          "Value": "sha256-kf4mvzw6IZtkLMXRPhjBkC++EDbb3M+EEIMluoYUAfw="
         }
       ]
     },
     {
-      "Route": "mainLogo.mg1v6fijiz.gif",
-      "AssetFile": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\wwwroot\\mainLogo.gif",
+      "Route": "mainlogo.goj2v9k96g.png",
+      "AssetFile": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\wwwroot\\mainlogo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -86099,19 +86054,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "58936"
+          "Value": "167599"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/gif"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"Jls7W0t8vwwZZmHI1E5Ec5bPIcgIVKi66zMXlTghFXQ=\""
+          "Value": "\"4GwA0L1K6/Pn/sgAcGOZ5/mmtSelx3U39oLdiHn1meY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Oct 2024 20:44:10 GMT"
+          "Value": "Sun, 03 Nov 2024 17:52:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -86121,7 +86076,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mg1v6fijiz"
+          "Value": "goj2v9k96g"
+        },
+        {
+          "Name": "label",
+          "Value": "mainlogo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4GwA0L1K6/Pn/sgAcGOZ5/mmtSelx3U39oLdiHn1meY="
+        }
+      ]
+    },
+    {
+      "Route": "mainLogo.hwwc1j4foc.gif",
+      "AssetFile": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\wwwroot\\mainLogo.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61940"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kf4mvzw6IZtkLMXRPhjBkC++EDbb3M+EEIMluoYUAfw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 03 Nov 2024 17:54:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hwwc1j4foc"
         },
         {
           "Name": "label",
@@ -86129,7 +86129,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Jls7W0t8vwwZZmHI1E5Ec5bPIcgIVKi66zMXlTghFXQ="
+          "Value": "sha256-kf4mvzw6IZtkLMXRPhjBkC++EDbb3M+EEIMluoYUAfw="
         }
       ]
     },
@@ -86144,7 +86144,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14552"
+          "Value": "167599"
         },
         {
           "Name": "Content-Type",
@@ -86152,11 +86152,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0F/lofpdQc0I8INpML6qHhM4ft9Y3X0zMV95lrC1UqQ=\""
+          "Value": "\"4GwA0L1K6/Pn/sgAcGOZ5/mmtSelx3U39oLdiHn1meY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Oct 2024 20:44:10 GMT"
+          "Value": "Sun, 03 Nov 2024 17:52:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -86166,7 +86166,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0F/lofpdQc0I8INpML6qHhM4ft9Y3X0zMV95lrC1UqQ="
+          "Value": "sha256-4GwA0L1K6/Pn/sgAcGOZ5/mmtSelx3U39oLdiHn1meY="
         }
       ]
     },
