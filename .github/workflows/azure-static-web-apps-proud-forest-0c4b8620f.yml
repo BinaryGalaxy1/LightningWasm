@@ -37,7 +37,6 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
-            const core = require('@actions/core');
             return await core.getIDToken();
           result-encoding: string
       - name: Deploy to Azure Static Web Apps
@@ -48,7 +47,6 @@ jobs:
           output_location: "build/wwwroot"
           api_location: "Api"
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          github_id_token: ${{ steps.oidc.outputs.result }}
           ###### End of Repository/Build Configurations ######
 
 
@@ -62,3 +60,5 @@ jobs:
         uses: Azure/static-web-apps-deploy@v1
         with:
           action: "close"
+          app_location: "/"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
