@@ -31,7 +31,7 @@ jobs:
       - name: Build
         run: dotnet build --configuration Release --no-restore
       - name: Publish
-        run: dotnet publish -c Release -o build
+        run: dotnet publish ./LightningWasm.csproj -c Release -o build
       - name: Deploy to Azure Static Web Apps
         uses: Azure/static-web-apps-deploy@v1
         with:
