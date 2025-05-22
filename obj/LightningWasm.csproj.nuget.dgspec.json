@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\LightningWasm.csproj": {}
+    "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\LightningWasm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\LightningWasm.csproj": {
+    "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\LightningWasm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\LightningWasm.csproj",
+        "projectUniqueName": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\LightningWasm.csproj",
         "projectName": "LightningWasm",
-        "projectPath": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\LightningWasm.csproj",
-        "packagesPath": "C:\\Users\\limak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\limak\\dev\\lweb\\Lightningwasm\\obj\\",
+        "projectPath": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\LightningWasm.csproj",
+        "packagesPath": "C:\\Users\\svens\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\limak\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\svens\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -37,9 +43,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -57,13 +63,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.0-rc.2.24473.5, )",
+              "version": "[9.0.0, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.0-rc.2.24473.5, )",
+              "version": "[9.0.5, )",
               "autoReferenced": true
             }
           },
@@ -81,7 +87,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[9.0.0-rc.2.24473.5, 9.0.0-rc.2.24473.5]"
+              "version": "[9.0.5, 9.0.5]"
             }
           ],
           "frameworkReferences": {
@@ -89,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.25057.12/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

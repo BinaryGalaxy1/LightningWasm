@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LightningWasm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d869f989a1f6104f7d9903328c184cb23260060")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4058a0a262f60510d2cd668c432b763f6fe66dd")]
 [assembly: System.Reflection.AssemblyProductAttribute("LightningWasm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LightningWasm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
