@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "H7zUlSoUNWbjgeF0354K98rSMfXneh6u3Vtt0lN/2F8=",
+  "Hash": "WwxLHT8xaqWkM9na+9z+pYxrc2ENRZaz/qsiHtl/74E=",
   "Source": "LightningWasm",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "jtnadk5thq",
-      "Integrity": "6duEKaE5GpW/JMUR6kddJTWo+RFZGi4wDeXcdOcox2k=",
+      "Fingerprint": "15dtiu0w3b",
+      "Integrity": "xXFY8VawZoQzPSwCm4Jiw+sglkZbvK4ssDH3yia9mpY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -262,8 +262,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "uh0znfnhf5",
-      "Integrity": "QrC15+LxcuU2crWIZk90lNuV1sIvBbvYd140pI42SYQ=",
+      "Fingerprint": "8jt09kqn86",
+      "Integrity": "hG7rOtCohod5ws4vZQ2WYAXwHN3snvj6AJ+OOr3I8Hc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\LightningWasm.pdb"
@@ -283,8 +283,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "c48964a84y",
-      "Integrity": "pHhQIuPUgyDDqGV3A1N3VZqEAeuLommkm56Zu6sw4mg=",
+      "Fingerprint": "3whxincr5m",
+      "Integrity": "02Z8mOvt5JozNXWmIwtHS8fCFD5PaeheGwH+YNTI5Uo=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\webcil\\LightningWasm.wasm"
@@ -6422,12 +6422,12 @@
       "OriginalItemSpec": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Reflection.Emit.ILGeneration.wasm"
     },
     {
-      "Identity": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\compressed\\et3e8w3dzd-c48964a84y.gz",
+      "Identity": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\compressed\\et3e8w3dzd-3whxincr5m.gz",
       "SourceId": "LightningWasm",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/LightningWasm#[.{fingerprint=c48964a84y}]!.wasm.gz",
+      "RelativePath": "_framework/LightningWasm#[.{fingerprint=3whxincr5m}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6436,8 +6436,8 @@
       "RelatedAsset": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\bin\\Debug\\net9.0\\wwwroot\\_framework\\LightningWasm.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "43nlfopem5",
-      "Integrity": "IEcp2KT6FNlP+8ZteQm7Zw8+Fu0prMIG1oPec5NN1Rs=",
+      "Fingerprint": "kpbrcaqrtd",
+      "Integrity": "+Ddlfv3uGlyQ+THQnZn7Avo20aSNh1W2CSgiesozDcA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\bin\\Debug\\net9.0\\wwwroot\\_framework\\LightningWasm.wasm"
@@ -6485,12 +6485,12 @@
       "OriginalItemSpec": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.wasm"
     },
     {
-      "Identity": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\compressed\\f908ra4aa7-uh0znfnhf5.gz",
+      "Identity": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\compressed\\f908ra4aa7-8jt09kqn86.gz",
       "SourceId": "LightningWasm",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/LightningWasm#[.{fingerprint=uh0znfnhf5}]!.pdb.gz",
+      "RelativePath": "_framework/LightningWasm#[.{fingerprint=8jt09kqn86}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6499,8 +6499,8 @@
       "RelatedAsset": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\bin\\Debug\\net9.0\\wwwroot\\_framework\\LightningWasm.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "3noxkrulif",
-      "Integrity": "//o0q5Q1yuk9dxUiRH6XlZXMt4AuYb1i8qwypuBz6nk=",
+      "Fingerprint": "nxsy848nyh",
+      "Integrity": "+55Gc9VKuQZ2+jf21mbBgxYNqUcQdfykvoz7ZXSQB3E=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\bin\\Debug\\net9.0\\wwwroot\\_framework\\LightningWasm.pdb"
@@ -7766,7 +7766,7 @@
       "OriginalItemSpec": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.wasm"
     },
     {
-      "Identity": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\compressed\\n1u06em2o0-jtnadk5thq.gz",
+      "Identity": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\compressed\\n1u06em2o0-15dtiu0w3b.gz",
       "SourceId": "LightningWasm",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\compressed\\",
@@ -7780,8 +7780,8 @@
       "RelatedAsset": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "zewd0b1fto",
-      "Integrity": "W8Gwq0zkQF88P4eG0gHAEVFrOtLrzme+bWf62nHIzIg=",
+      "Fingerprint": "hzvwwyypjh",
+      "Integrity": "E07faD0U/+ytPctMZzeSnf2zZjknN+Rzc6JeaLzG2eY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -10789,11 +10789,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6duEKaE5GpW/JMUR6kddJTWo+RFZGi4wDeXcdOcox2k=\""
+          "Value": "\"xXFY8VawZoQzPSwCm4Jiw+sglkZbvK4ssDH3yia9mpY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 13:43:33 GMT"
+          "Value": "Thu, 22 May 2025 13:49:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10803,13 +10803,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6duEKaE5GpW/JMUR6kddJTWo+RFZGi4wDeXcdOcox2k="
+          "Value": "sha256-xXFY8VawZoQzPSwCm4Jiw+sglkZbvK4ssDH3yia9mpY="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\compressed\\n1u06em2o0-jtnadk5thq.gz",
+      "AssetFile": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\compressed\\n1u06em2o0-15dtiu0w3b.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -10828,7 +10828,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"W8Gwq0zkQF88P4eG0gHAEVFrOtLrzme+bWf62nHIzIg=\""
+          "Value": "\"E07faD0U/+ytPctMZzeSnf2zZjknN+Rzc6JeaLzG2eY=\""
         },
         {
           "Name": "Last-Modified",
@@ -10852,19 +10852,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"6duEKaE5GpW/JMUR6kddJTWo+RFZGi4wDeXcdOcox2k=\""
+          "Value": "W/\"xXFY8VawZoQzPSwCm4Jiw+sglkZbvK4ssDH3yia9mpY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6duEKaE5GpW/JMUR6kddJTWo+RFZGi4wDeXcdOcox2k="
+          "Value": "sha256-xXFY8VawZoQzPSwCm4Jiw+sglkZbvK4ssDH3yia9mpY="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\compressed\\n1u06em2o0-jtnadk5thq.gz",
+      "AssetFile": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\compressed\\n1u06em2o0-15dtiu0w3b.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10881,7 +10881,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"W8Gwq0zkQF88P4eG0gHAEVFrOtLrzme+bWf62nHIzIg=\""
+          "Value": "\"E07faD0U/+ytPctMZzeSnf2zZjknN+Rzc6JeaLzG2eY=\""
         },
         {
           "Name": "Last-Modified",
@@ -10903,7 +10903,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-W8Gwq0zkQF88P4eG0gHAEVFrOtLrzme+bWf62nHIzIg="
+          "Value": "sha256-E07faD0U/+ytPctMZzeSnf2zZjknN+Rzc6JeaLzG2eY="
         }
       ]
     },
@@ -10969,7 +10969,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 13:43:33 GMT"
+          "Value": "Tue, 29 Oct 2024 13:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11022,7 +11022,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 13:43:33 GMT"
+          "Value": "Tue, 29 Oct 2024 13:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11106,7 +11106,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 13:43:33 GMT"
+          "Value": "Tue, 15 Apr 2025 18:13:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11206,7 +11206,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 13:43:33 GMT"
+          "Value": "Tue, 15 Apr 2025 18:13:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11267,7 +11267,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 13:43:33 GMT"
+          "Value": "Tue, 15 Apr 2025 18:13:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11320,7 +11320,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 13:43:33 GMT"
+          "Value": "Tue, 15 Apr 2025 18:13:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11404,7 +11404,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 13:43:33 GMT"
+          "Value": "Tue, 15 Apr 2025 18:13:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11457,7 +11457,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 13:43:33 GMT"
+          "Value": "Tue, 15 Apr 2025 18:13:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11549,7 +11549,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 13:43:33 GMT"
+          "Value": "Tue, 15 Apr 2025 18:13:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11610,7 +11610,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 13:43:33 GMT"
+          "Value": "Tue, 15 Apr 2025 18:13:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12596,7 +12596,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 13:43:33 GMT"
+          "Value": "Tue, 15 Apr 2025 18:13:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12649,7 +12649,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 13:43:33 GMT"
+          "Value": "Tue, 15 Apr 2025 18:13:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12741,7 +12741,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 13:43:33 GMT"
+          "Value": "Tue, 15 Apr 2025 18:13:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12802,7 +12802,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 13:43:33 GMT"
+          "Value": "Tue, 15 Apr 2025 18:13:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13727,7 +13727,7 @@
       ]
     },
     {
-      "Route": "_framework/LightningWasm.c48964a84y.wasm",
+      "Route": "_framework/LightningWasm.3whxincr5m.wasm",
       "AssetFile": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\bin\\Debug\\net9.0\\wwwroot\\_framework\\LightningWasm.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -13745,11 +13745,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pHhQIuPUgyDDqGV3A1N3VZqEAeuLommkm56Zu6sw4mg=\""
+          "Value": "\"02Z8mOvt5JozNXWmIwtHS8fCFD5PaeheGwH+YNTI5Uo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 13:43:32 GMT"
+          "Value": "Thu, 22 May 2025 13:49:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13759,7 +13759,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c48964a84y"
+          "Value": "3whxincr5m"
         },
         {
           "Name": "label",
@@ -13767,18 +13767,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pHhQIuPUgyDDqGV3A1N3VZqEAeuLommkm56Zu6sw4mg="
+          "Value": "sha256-02Z8mOvt5JozNXWmIwtHS8fCFD5PaeheGwH+YNTI5Uo="
         }
       ]
     },
     {
-      "Route": "_framework/LightningWasm.c48964a84y.wasm",
-      "AssetFile": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\compressed\\et3e8w3dzd-c48964a84y.gz",
+      "Route": "_framework/LightningWasm.3whxincr5m.wasm",
+      "AssetFile": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\compressed\\et3e8w3dzd-3whxincr5m.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000065479309"
+          "Quality": "0.000065462163"
         }
       ],
       "ResponseHeaders": [
@@ -13788,15 +13788,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15271"
+          "Value": "15275"
         },
         {
           "Name": "ETag",
-          "Value": "\"IEcp2KT6FNlP+8ZteQm7Zw8+Fu0prMIG1oPec5NN1Rs=\""
+          "Value": "\"+Ddlfv3uGlyQ+THQnZn7Avo20aSNh1W2CSgiesozDcA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 13:43:33 GMT"
+          "Value": "Thu, 22 May 2025 13:49:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13816,13 +13816,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"pHhQIuPUgyDDqGV3A1N3VZqEAeuLommkm56Zu6sw4mg=\""
+          "Value": "W/\"02Z8mOvt5JozNXWmIwtHS8fCFD5PaeheGwH+YNTI5Uo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c48964a84y"
+          "Value": "3whxincr5m"
         },
         {
           "Name": "label",
@@ -13830,13 +13830,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pHhQIuPUgyDDqGV3A1N3VZqEAeuLommkm56Zu6sw4mg="
+          "Value": "sha256-02Z8mOvt5JozNXWmIwtHS8fCFD5PaeheGwH+YNTI5Uo="
         }
       ]
     },
     {
-      "Route": "_framework/LightningWasm.c48964a84y.wasm.gz",
-      "AssetFile": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\compressed\\et3e8w3dzd-c48964a84y.gz",
+      "Route": "_framework/LightningWasm.3whxincr5m.wasm.gz",
+      "AssetFile": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\compressed\\et3e8w3dzd-3whxincr5m.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13845,7 +13845,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15271"
+          "Value": "15275"
         },
         {
           "Name": "Content-Type",
@@ -13853,11 +13853,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"IEcp2KT6FNlP+8ZteQm7Zw8+Fu0prMIG1oPec5NN1Rs=\""
+          "Value": "\"+Ddlfv3uGlyQ+THQnZn7Avo20aSNh1W2CSgiesozDcA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 13:43:33 GMT"
+          "Value": "Thu, 22 May 2025 13:49:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13875,7 +13875,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c48964a84y"
+          "Value": "3whxincr5m"
         },
         {
           "Name": "label",
@@ -13883,12 +13883,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-IEcp2KT6FNlP+8ZteQm7Zw8+Fu0prMIG1oPec5NN1Rs="
+          "Value": "sha256-+Ddlfv3uGlyQ+THQnZn7Avo20aSNh1W2CSgiesozDcA="
         }
       ]
     },
     {
-      "Route": "_framework/LightningWasm.pdb",
+      "Route": "_framework/LightningWasm.8jt09kqn86.pdb",
       "AssetFile": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\bin\\Debug\\net9.0\\wwwroot\\_framework\\LightningWasm.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -13906,148 +13906,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QrC15+LxcuU2crWIZk90lNuV1sIvBbvYd140pI42SYQ=\""
+          "Value": "\"hG7rOtCohod5ws4vZQ2WYAXwHN3snvj6AJ+OOr3I8Hc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 13:43:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-QrC15+LxcuU2crWIZk90lNuV1sIvBbvYd140pI42SYQ="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/LightningWasm.pdb",
-      "AssetFile": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\compressed\\f908ra4aa7-uh0znfnhf5.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000032578596"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "30694"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"//o0q5Q1yuk9dxUiRH6XlZXMt4AuYb1i8qwypuBz6nk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 13:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"QrC15+LxcuU2crWIZk90lNuV1sIvBbvYd140pI42SYQ=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-QrC15+LxcuU2crWIZk90lNuV1sIvBbvYd140pI42SYQ="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/LightningWasm.pdb.gz",
-      "AssetFile": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\compressed\\f908ra4aa7-uh0znfnhf5.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "30694"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"//o0q5Q1yuk9dxUiRH6XlZXMt4AuYb1i8qwypuBz6nk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 13:43:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-//o0q5Q1yuk9dxUiRH6XlZXMt4AuYb1i8qwypuBz6nk="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/LightningWasm.uh0znfnhf5.pdb",
-      "AssetFile": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\bin\\Debug\\net9.0\\wwwroot\\_framework\\LightningWasm.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "37648"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QrC15+LxcuU2crWIZk90lNuV1sIvBbvYd140pI42SYQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 13:43:31 GMT"
+          "Value": "Thu, 22 May 2025 13:49:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14057,7 +13920,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "uh0znfnhf5"
+          "Value": "8jt09kqn86"
         },
         {
           "Name": "label",
@@ -14065,18 +13928,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-QrC15+LxcuU2crWIZk90lNuV1sIvBbvYd140pI42SYQ="
+          "Value": "sha256-hG7rOtCohod5ws4vZQ2WYAXwHN3snvj6AJ+OOr3I8Hc="
         }
       ]
     },
     {
-      "Route": "_framework/LightningWasm.uh0znfnhf5.pdb",
-      "AssetFile": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\compressed\\f908ra4aa7-uh0znfnhf5.gz",
+      "Route": "_framework/LightningWasm.8jt09kqn86.pdb",
+      "AssetFile": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\compressed\\f908ra4aa7-8jt09kqn86.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000032578596"
+          "Quality": "0.000032577535"
         }
       ],
       "ResponseHeaders": [
@@ -14086,15 +13949,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30694"
+          "Value": "30695"
         },
         {
           "Name": "ETag",
-          "Value": "\"//o0q5Q1yuk9dxUiRH6XlZXMt4AuYb1i8qwypuBz6nk=\""
+          "Value": "\"+55Gc9VKuQZ2+jf21mbBgxYNqUcQdfykvoz7ZXSQB3E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 13:43:33 GMT"
+          "Value": "Thu, 22 May 2025 13:49:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14114,13 +13977,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"QrC15+LxcuU2crWIZk90lNuV1sIvBbvYd140pI42SYQ=\""
+          "Value": "W/\"hG7rOtCohod5ws4vZQ2WYAXwHN3snvj6AJ+OOr3I8Hc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "uh0znfnhf5"
+          "Value": "8jt09kqn86"
         },
         {
           "Name": "label",
@@ -14128,13 +13991,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-QrC15+LxcuU2crWIZk90lNuV1sIvBbvYd140pI42SYQ="
+          "Value": "sha256-hG7rOtCohod5ws4vZQ2WYAXwHN3snvj6AJ+OOr3I8Hc="
         }
       ]
     },
     {
-      "Route": "_framework/LightningWasm.uh0znfnhf5.pdb.gz",
-      "AssetFile": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\compressed\\f908ra4aa7-uh0znfnhf5.gz",
+      "Route": "_framework/LightningWasm.8jt09kqn86.pdb.gz",
+      "AssetFile": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\compressed\\f908ra4aa7-8jt09kqn86.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14143,7 +14006,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30694"
+          "Value": "30695"
         },
         {
           "Name": "Content-Type",
@@ -14151,11 +14014,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"//o0q5Q1yuk9dxUiRH6XlZXMt4AuYb1i8qwypuBz6nk=\""
+          "Value": "\"+55Gc9VKuQZ2+jf21mbBgxYNqUcQdfykvoz7ZXSQB3E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 13:43:33 GMT"
+          "Value": "Thu, 22 May 2025 13:49:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14173,7 +14036,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "uh0znfnhf5"
+          "Value": "8jt09kqn86"
         },
         {
           "Name": "label",
@@ -14181,7 +14044,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-//o0q5Q1yuk9dxUiRH6XlZXMt4AuYb1i8qwypuBz6nk="
+          "Value": "sha256-+55Gc9VKuQZ2+jf21mbBgxYNqUcQdfykvoz7ZXSQB3E="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/LightningWasm.pdb",
+      "AssetFile": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\bin\\Debug\\net9.0\\wwwroot\\_framework\\LightningWasm.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37648"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hG7rOtCohod5ws4vZQ2WYAXwHN3snvj6AJ+OOr3I8Hc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 13:49:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hG7rOtCohod5ws4vZQ2WYAXwHN3snvj6AJ+OOr3I8Hc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/LightningWasm.pdb",
+      "AssetFile": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\compressed\\f908ra4aa7-8jt09kqn86.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000032577535"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30695"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+55Gc9VKuQZ2+jf21mbBgxYNqUcQdfykvoz7ZXSQB3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 13:49:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"hG7rOtCohod5ws4vZQ2WYAXwHN3snvj6AJ+OOr3I8Hc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hG7rOtCohod5ws4vZQ2WYAXwHN3snvj6AJ+OOr3I8Hc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/LightningWasm.pdb.gz",
+      "AssetFile": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\compressed\\f908ra4aa7-8jt09kqn86.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30695"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+55Gc9VKuQZ2+jf21mbBgxYNqUcQdfykvoz7ZXSQB3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 13:49:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+55Gc9VKuQZ2+jf21mbBgxYNqUcQdfykvoz7ZXSQB3E="
         }
       ]
     },
@@ -14204,11 +14204,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pHhQIuPUgyDDqGV3A1N3VZqEAeuLommkm56Zu6sw4mg=\""
+          "Value": "\"02Z8mOvt5JozNXWmIwtHS8fCFD5PaeheGwH+YNTI5Uo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 13:43:32 GMT"
+          "Value": "Thu, 22 May 2025 13:49:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14218,18 +14218,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pHhQIuPUgyDDqGV3A1N3VZqEAeuLommkm56Zu6sw4mg="
+          "Value": "sha256-02Z8mOvt5JozNXWmIwtHS8fCFD5PaeheGwH+YNTI5Uo="
         }
       ]
     },
     {
       "Route": "_framework/LightningWasm.wasm",
-      "AssetFile": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\compressed\\et3e8w3dzd-c48964a84y.gz",
+      "AssetFile": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\compressed\\et3e8w3dzd-3whxincr5m.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000065479309"
+          "Quality": "0.000065462163"
         }
       ],
       "ResponseHeaders": [
@@ -14239,15 +14239,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15271"
+          "Value": "15275"
         },
         {
           "Name": "ETag",
-          "Value": "\"IEcp2KT6FNlP+8ZteQm7Zw8+Fu0prMIG1oPec5NN1Rs=\""
+          "Value": "\"+Ddlfv3uGlyQ+THQnZn7Avo20aSNh1W2CSgiesozDcA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 13:43:33 GMT"
+          "Value": "Thu, 22 May 2025 13:49:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14267,19 +14267,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"pHhQIuPUgyDDqGV3A1N3VZqEAeuLommkm56Zu6sw4mg=\""
+          "Value": "W/\"02Z8mOvt5JozNXWmIwtHS8fCFD5PaeheGwH+YNTI5Uo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pHhQIuPUgyDDqGV3A1N3VZqEAeuLommkm56Zu6sw4mg="
+          "Value": "sha256-02Z8mOvt5JozNXWmIwtHS8fCFD5PaeheGwH+YNTI5Uo="
         }
       ]
     },
     {
       "Route": "_framework/LightningWasm.wasm.gz",
-      "AssetFile": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\compressed\\et3e8w3dzd-c48964a84y.gz",
+      "AssetFile": "C:\\Users\\svens\\OneDrive\\Dev\\Github\\LightningWasm\\obj\\Debug\\net9.0\\compressed\\et3e8w3dzd-3whxincr5m.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14288,7 +14288,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15271"
+          "Value": "15275"
         },
         {
           "Name": "Content-Type",
@@ -14296,11 +14296,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"IEcp2KT6FNlP+8ZteQm7Zw8+Fu0prMIG1oPec5NN1Rs=\""
+          "Value": "\"+Ddlfv3uGlyQ+THQnZn7Avo20aSNh1W2CSgiesozDcA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 13:43:33 GMT"
+          "Value": "Thu, 22 May 2025 13:49:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14318,7 +14318,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-IEcp2KT6FNlP+8ZteQm7Zw8+Fu0prMIG1oPec5NN1Rs="
+          "Value": "sha256-+Ddlfv3uGlyQ+THQnZn7Avo20aSNh1W2CSgiesozDcA="
         }
       ]
     },

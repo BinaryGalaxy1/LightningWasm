@@ -1094,8 +1094,6 @@ C:\Users\svens\OneDrive\Dev\Github\LightningWasm\bin\Debug\net9.0\wwwroot\_frame
 C:\Users\svens\OneDrive\Dev\Github\LightningWasm\bin\Debug\net9.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat
 C:\Users\svens\OneDrive\Dev\Github\LightningWasm\bin\Debug\net9.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat
 C:\Users\svens\OneDrive\Dev\Github\LightningWasm\bin\Debug\net9.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat
-C:\Users\svens\OneDrive\Dev\Github\LightningWasm\bin\Debug\net9.0\wwwroot\_framework\LightningWasm.uh0znfnhf5.pdb
-C:\Users\svens\OneDrive\Dev\Github\LightningWasm\bin\Debug\net9.0\wwwroot\_framework\LightningWasm.c48964a84y.wasm
 C:\Users\svens\OneDrive\Dev\Github\LightningWasm\bin\Debug\net9.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.qe23mgxr71.wasm
 C:\Users\svens\OneDrive\Dev\Github\LightningWasm\bin\Debug\net9.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.thhw8cz9wu.wasm
 C:\Users\svens\OneDrive\Dev\Github\LightningWasm\bin\Debug\net9.0\wwwroot\_framework\Microsoft.AspNetCore.Components.flveird317.wasm
@@ -1370,9 +1368,7 @@ C:\Users\svens\OneDrive\Dev\Github\LightningWasm\bin\Debug\net9.0\wwwroot\_frame
 C:\Users\svens\OneDrive\Dev\Github\LightningWasm\bin\Debug\net9.0\wwwroot\_framework\netstandard.ifx8vojh9u.wasm.gz
 C:\Users\svens\OneDrive\Dev\Github\LightningWasm\bin\Debug\net9.0\wwwroot\_framework\System.Diagnostics.Debug.2ahnaecxp2.wasm.gz
 C:\Users\svens\OneDrive\Dev\Github\LightningWasm\bin\Debug\net9.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.n2z595t7zv.wasm.gz
-C:\Users\svens\OneDrive\Dev\Github\LightningWasm\bin\Debug\net9.0\wwwroot\_framework\LightningWasm.c48964a84y.wasm.gz
 C:\Users\svens\OneDrive\Dev\Github\LightningWasm\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.w8ltos2ii6.wasm.gz
-C:\Users\svens\OneDrive\Dev\Github\LightningWasm\bin\Debug\net9.0\wwwroot\_framework\LightningWasm.uh0znfnhf5.pdb.gz
 C:\Users\svens\OneDrive\Dev\Github\LightningWasm\bin\Debug\net9.0\wwwroot\_framework\System.Data.Common.lcca6mlcc9.wasm.gz
 C:\Users\svens\OneDrive\Dev\Github\LightningWasm\bin\Debug\net9.0\wwwroot\_framework\System.IO.Pipes.tqouqgzazg.wasm.gz
 C:\Users\svens\OneDrive\Dev\Github\LightningWasm\bin\Debug\net9.0\wwwroot\_framework\System.Security.Cryptography.Encoding.9v1z3jix27.wasm.gz
@@ -2155,9 +2151,6 @@ C:\Users\svens\OneDrive\Dev\Github\LightningWasm\obj\Debug\net9.0\compressed\ssx
 C:\Users\svens\OneDrive\Dev\Github\LightningWasm\obj\Debug\net9.0\compressed\xpgv3yqh8q-tjcz0u77k5.gz
 C:\Users\svens\OneDrive\Dev\Github\LightningWasm\obj\Debug\net9.0\compressed\99126utnqs-tptq2av103.gz
 C:\Users\svens\OneDrive\Dev\Github\LightningWasm\obj\Debug\net9.0\compressed\bk6corru3v-lfu7j35m59.gz
-C:\Users\svens\OneDrive\Dev\Github\LightningWasm\obj\Debug\net9.0\compressed\et3e8w3dzd-c48964a84y.gz
-C:\Users\svens\OneDrive\Dev\Github\LightningWasm\obj\Debug\net9.0\compressed\f908ra4aa7-uh0znfnhf5.gz
-C:\Users\svens\OneDrive\Dev\Github\LightningWasm\obj\Debug\net9.0\compressed\n1u06em2o0-jtnadk5thq.gz
 C:\Users\svens\OneDrive\Dev\Github\LightningWasm\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\svens\OneDrive\Dev\Github\LightningWasm\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\svens\OneDrive\Dev\Github\LightningWasm\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -2172,3 +2165,13 @@ C:\Users\svens\OneDrive\Dev\Github\LightningWasm\obj\Debug\net9.0\LightningWasm.
 C:\Users\svens\OneDrive\Dev\Github\LightningWasm\obj\Debug\net9.0\refint\LightningWasm.dll
 C:\Users\svens\OneDrive\Dev\Github\LightningWasm\obj\Debug\net9.0\LightningWasm.pdb
 C:\Users\svens\OneDrive\Dev\Github\LightningWasm\obj\Debug\net9.0\ref\LightningWasm.dll
+C:\Users\svens\OneDrive\Dev\Github\LightningWasm\bin\Debug\net9.0\wwwroot\_framework\LightningWasm.8jt09kqn86.pdb
+C:\Users\svens\OneDrive\Dev\Github\LightningWasm\bin\Debug\net9.0\wwwroot\_framework\LightningWasm.3whxincr5m.wasm
+C:\Users\svens\OneDrive\Dev\Github\LightningWasm\bin\Debug\net9.0\wwwroot\_framework\LightningWasm.3whxincr5m.wasm.gz
+C:\Users\svens\OneDrive\Dev\Github\LightningWasm\bin\Debug\net9.0\wwwroot\_framework\LightningWasm.8jt09kqn86.pdb.gz
+C:\Users\svens\OneDrive\Dev\Github\LightningWasm\bin\Debug\net9.0\build\build\LightningWasm.staticwebassets.endpoints.json
+C:\Users\svens\OneDrive\Dev\Github\LightningWasm\bin\Debug\net9.0\build\build\wwwroot\sample-data\weather.json
+C:\Users\svens\OneDrive\Dev\Github\LightningWasm\bin\Debug\net9.0\build\build\wwwroot\_framework\blazor.boot.json
+C:\Users\svens\OneDrive\Dev\Github\LightningWasm\obj\Debug\net9.0\compressed\et3e8w3dzd-3whxincr5m.gz
+C:\Users\svens\OneDrive\Dev\Github\LightningWasm\obj\Debug\net9.0\compressed\f908ra4aa7-8jt09kqn86.gz
+C:\Users\svens\OneDrive\Dev\Github\LightningWasm\obj\Debug\net9.0\compressed\n1u06em2o0-15dtiu0w3b.gz

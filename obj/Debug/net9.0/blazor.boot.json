@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "LightningWasm",
   "resources": {
-    "hash": "sha256-302vpbEs4NZNzdfWrUYwHOFprwGazPZflnM9IiHSTnU=",
+    "hash": "sha256-W9lW6jDSGUSTRrZ2BOEZ8vptkFDLSKn9WAoLRjbbInE=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.qe23mgxr71.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.flveird317.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -201,8 +201,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "LightningWasm.c48964a84y.wasm": "LightningWasm.wasm",
-      "LightningWasm.uh0znfnhf5.pdb": "LightningWasm.pdb"
+      "LightningWasm.3whxincr5m.wasm": "LightningWasm.wasm",
+      "LightningWasm.8jt09kqn86.pdb": "LightningWasm.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.uhsveqo9bs.js": "sha256-/ifJokfQvXKw1hEziCkYR9SOJIKSdGG/UKw5gbLWrj0="
@@ -412,10 +412,10 @@
       "WindowsBase.pe1q66fox7.wasm": "sha256-X+jubl681x6U1UjhhKVz+cjOvMv1wDBWIyyFenqJnPc=",
       "mscorlib.ypkr78tz1c.wasm": "sha256-Wkc7KpMw/bTWNoLCRv9T8olIOmCpEiJSeUZsUQEnwrA=",
       "netstandard.ifx8vojh9u.wasm": "sha256-PqpRCbO73PFsE8ik5zmAuG1kKax3c7bGhjOOeuiUcyY=",
-      "LightningWasm.c48964a84y.wasm": "sha256-pHhQIuPUgyDDqGV3A1N3VZqEAeuLommkm56Zu6sw4mg="
+      "LightningWasm.3whxincr5m.wasm": "sha256-02Z8mOvt5JozNXWmIwtHS8fCFD5PaeheGwH+YNTI5Uo="
     },
     "pdb": {
-      "LightningWasm.uh0znfnhf5.pdb": "sha256-QrC15+LxcuU2crWIZk90lNuV1sIvBbvYd140pI42SYQ="
+      "LightningWasm.8jt09kqn86.pdb": "sha256-hG7rOtCohod5ws4vZQ2WYAXwHN3snvj6AJ+OOr3I8Hc="
     }
   },
   "cacheBootResources": true,
