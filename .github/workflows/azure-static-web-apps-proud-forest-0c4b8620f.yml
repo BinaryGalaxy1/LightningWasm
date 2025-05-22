@@ -46,7 +46,7 @@ jobs:
           app_location: "/"
           output_location: "build/wwwroot"
           api_location: "Api"
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
           ###### End of Repository/Build Configurations ######
 
 
@@ -61,4 +61,4 @@ jobs:
         with:
           action: "close"
           app_location: "/"
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
