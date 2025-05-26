@@ -1,5 +1,10 @@
 {
-  "routes": [
-    { "route": "/*", "rewrite": "/index.html" }
-  ]
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": [
+      "/images/*.{png,jpg,gif}",
+      "/css/*",
+      "/*.{js,css,html,ico,map,json,woff2,wasm,blat}" 
+    ]
+  }
 }
