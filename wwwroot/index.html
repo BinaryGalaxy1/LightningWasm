@@ -64,6 +64,34 @@
             };
             return notes[note] || 261.63;
         }
+
+        // Keyboard mapping for the piano
+        const keyToNote = {
+            'a': 'C', 'w': 'C#', 's': 'D', 'e': 'D#', 'd': 'E', 'f': 'F', 't': 'F#',
+            'g': 'G', 'y': 'G#', 'h': 'A', 'u': 'A#', 'j': 'B', 'k': 'C2'
+        };
+
+        window.pianoWireUpKeys = function(dotNetRef) {
+            if (window._pianoKeyHandler) return; // Only wire up once
+            window._pianoKeyHandler = function(e) {
+                const note = keyToNote[e.key];
+                if (note) {
+                    window.playPianoNote(note);
+                    if (dotNetRef) {
+                        dotNetRef.invokeMethodAsync('SetPressedFromJs', note);
+                        setTimeout(() => dotNetRef.invokeMethodAsync('SetPressedFromJs', null), 120);
+                    }
+                    e.preventDefault();
+                }
+            };
+            window.addEventListener('keydown', window._pianoKeyHandler);
+        };
+        window.pianoUnwireKeys = function() {
+            if (window._pianoKeyHandler) {
+                window.removeEventListener('keydown', window._pianoKeyHandler);
+                window._pianoKeyHandler = null;
+            }
+        };
     </script>
     <script src="_framework/blazor.webassembly.js"></script>
 </body>
