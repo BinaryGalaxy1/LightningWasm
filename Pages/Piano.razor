@@ -1,0 +1,28 @@
+﻿
+@page "/Piano"
+<PageTitle>Piano</PageTitle>
+
+<h1>Virtual Piano</h1>
+<div class="piano-keys" style="display: flex;">
+    @foreach (var note in Notes)
+    {
+        <button class="piano-key" style="width:40px;height:180px;margin:1px;background:@(IsSharp(note) ? "#333" : "#fff");color:@(IsSharp(note) ? "#fff" : "#000");border:1px solid #000;z-index:@(IsSharp(note) ? 2 : 1);position:relative;top:@(IsSharp(note) ? 0 : 20)px;" @onclick="() => PlayNote(note)">@note</button>
+    }
+</div>
+
+<audio id="audio" />
+
+@code {
+    private string[] Notes = new[] { "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B", "C2" };
+
+    private bool IsSharp(string note) => note.Contains("#");
+
+    private async Task PlayNote(string note)
+    {
+        // For demo: Use simple beep sounds or map to audio files if available
+        // Here, we'll use JS interop to play a sound (or you can wire up your own audio files)
+        await JS.InvokeVoidAsync("playPianoNote", note);
+    }
+
+    [Inject] IJSRuntime JS { get; set; }
+}
