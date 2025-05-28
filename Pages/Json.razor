@@ -1,0 +1,105 @@
+﻿@page "/Json"
+@inject HttpClient Http
+@using System.Text.Json
+
+<PageTitle>@Title</PageTitle>
+
+<h1>@Title</h1>
+
+<p>@Info</p>
+
+@if (jsonElement.ValueKind != JsonValueKind.Undefined)
+{
+    @RenderJson(jsonElement)
+}
+else
+{
+    <p><em>Loading...</em></p>
+}
+
+
+ <input @bind="File" placeholder="sample-data/weather.json" />
+ <button @onclick="LoadData">Load Data</button>
+
+@code {
+    //private WeatherForecast[]? forecasts;
+
+   // protected override async Task OnInitializedAsync()
+    //{
+     //   forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+    //}
+
+   
+    private string File { get; set; } = "sample-data/weather.json";
+    private string Title { get; set; } = "JSON Data Fetcher";
+    private string Info { get; set; } = "This component demonstrates fetching data from the server.";
+ 
+    
+
+    private void onError(Exception ex)
+    {
+        Console.WriteLine($"Error loading data: {ex.Message}");
+        Info = ex.InnerException?.Message ?? ex.ToString();
+     }
+
+    private JsonElement jsonElement = default;
+
+    private async Task LoadData()
+    {
+        try
+        {
+
+            var stream = await Http.GetStreamAsync(File);
+            using var doc = await JsonDocument.ParseAsync(stream);
+            jsonElement = doc.RootElement.Clone();
+        }
+        catch (Exception ex)
+        {
+            onError(ex);
+        }
+    }
+
+   RenderFragment RenderJson(JsonElement element) => builder =>
+    {
+        switch (element.ValueKind)
+        {
+           case JsonValueKind.Object:
+                builder.OpenElement(0, "ul");
+                int i = 0;
+                foreach (var prop in element.EnumerateObject())
+                {
+                    builder.OpenElement(++i, "li");
+                    builder.AddContent(++i, $"{prop.Name}: ");
+                    builder.AddContent(++i, RenderJson(prop.Value));
+                    builder.CloseElement();
+                }
+                builder.CloseElement();
+                break;
+            case JsonValueKind.Array:
+                builder.OpenElement(0, "ol");
+                int j = 0;
+                foreach (var item in element.EnumerateArray())
+                {
+                    builder.OpenElement(++j, "li");
+                    builder.AddContent(++j, RenderJson(item));
+                    builder.CloseElement();
+                }
+                builder.CloseElement();
+                break;
+            case JsonValueKind.String:
+                builder.AddContent(0, element.GetString());
+                break;
+            case JsonValueKind.Number:
+                builder.AddContent(0, element.GetRawText());
+                break;
+            case JsonValueKind.True:
+            case JsonValueKind.False:
+                builder.AddContent(0, element.GetBoolean().ToString());
+                break;
+            case JsonValueKind.Null:
+                builder.AddContent(0, "null");
+                break;
+        }
+    };
+}
+
