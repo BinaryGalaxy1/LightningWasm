@@ -1,6 +1,9 @@
 ﻿
+
 @page "/Piano"
 <PageTitle>Piano</PageTitle>
+<script src="lib/bootstrap/dist/js/piano.js"></script>
+
 
 <h1>Virtual Piano</h1>
 
@@ -40,7 +43,7 @@
     };
     private readonly Dictionary<string, string> NoteToKey;
 
-    private string PressedNote = null;
+    private string? PressedNote = null;
 
     private bool IsSharp(string note) => note.Contains("#");
 
@@ -52,7 +55,7 @@
         SetPressed(null);
     }
 
-    private void SetPressed(string note)
+    private void SetPressed(string? note)
     {
         PressedNote = note;
         StateHasChanged();
