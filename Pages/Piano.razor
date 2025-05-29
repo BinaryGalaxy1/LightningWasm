@@ -7,45 +7,180 @@
 
 <h1>Virtual Piano</h1>
 
-<div class="piano-keys" style="display: flex;">
-    @for (int i = 0; i < Notes.Length; i++)
-    {
-        var note = Notes[i];
-        var key = NoteToKey.FirstOrDefault(x => x.Value == note).Key;
-        bool isPressed = PressedNote == note;
-        <button class="piano-key @(isPressed ? "pressed" : null)" 
-                style="width:40px;height:180px;margin:1px;background:@(IsSharp(note) ? (isPressed ? "#666" : "#333") : (isPressed ? "#ccf" : "#fff"));color:@(IsSharp(note) ? "#fff" : "#000");border:2px solid @(isPressed ? "#00f" : "#000");z-index:@(IsSharp(note) ? 2 : 1);position:relative;top:@(IsSharp(note) ? 0 : 20)px;transition:background 0.1s,border 0.1s;" 
-                @onclick="() => PlayNote(note)" 
-                @onmousedown="() => SetPressed(note)" 
-                @onmouseup="() => SetPressed(null)" 
-                @onmouseleave="() => SetPressed(null)">
-            <span style="position:absolute;top:50%;left:0;right:0;transform:translateY(-50%);text-align:center;width:100%;pointer-events:none;font-weight:bold;">@note</span>
-            @if (NoteToKey.TryGetValue(note, out var mappedKey) && !string.IsNullOrEmpty(mappedKey))
-            {
-                <span style="position:absolute;bottom:6px;right:6px;font-size:0.8em;opacity:0.7;pointer-events:none;">@mappedKey.ToUpper()</span>
-            }
-        </button>
+
+
+
+<style>
+    .piano-container {
+        position: relative;
+        width: max-content;
+        margin-bottom: 2em;
     }
+    .white-keys {
+        display: flex;
+        position: relative;
+        z-index: 1;
+    }
+    .white-key {
+        width: 48px;
+        height: 180px;
+        background: #fff;
+        border: 1px solid #888;
+        margin: 0 1px;
+        position: relative;
+        color: #000;
+        font-weight: bold;
+        font-size: 1em;
+        border-radius: 0 0 6px 6px;
+        box-shadow: 0 2px 2px #bbb;
+        transition: background 0.1s, border 0.1s;
+    }
+    .white-key.pressed {
+        background: #ccf;
+        border: 2px solid #00f;
+    }
+    .black-keys {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 110px;
+        width: 100%;
+        display: flex;
+        z-index: 2;
+        pointer-events: none;
+    }
+    .black-key {
+        width: 32px;
+        height: 110px;
+        background: #222;
+        color: #fff;
+        border: 1px solid #000;
+        position: absolute;
+        border-radius: 0 0 4px 4px;
+        font-size: 0.95em;
+        font-weight: bold;
+        pointer-events: auto;
+        box-shadow: 0 2px 6px #000a;
+        transition: background 0.1s, border 0.1s;
+    }
+    .black-key.pressed {
+        background: #666;
+        border: 2px solid #00f;
+    }
+    .key-label {
+        position: absolute;
+        bottom: 6px;
+        right: 6px;
+        font-size: 0.8em;
+        opacity: 0.7;
+        pointer-events: none;
+    }
+</style>
+
+<div class="piano-container">
+    <div class="white-keys">
+        @for (int i = 0; i < WhiteNotes.Length; i++)
+        {
+            var note = WhiteNotes[i];
+            var key = NoteToKey[note];
+            bool isPressed = PressedNote == note;
+            <button class="white-key @(isPressed ? "pressed" : null)" @onclick="() => PlayNote(note)">
+                @note
+                <span class="key-label">@key.ToUpper()</span>
+            </button>
+        }
+    </div>
+    <div class="black-keys">
+        @for (int i = 0; i < WhiteNotes.Length - 1; i++)
+        {
+            var leftWhite = WhiteNotes[i];
+            var rightWhite = WhiteNotes[i + 1];
+            // If there is a black key between leftWhite and rightWhite
+            if (WhiteToBlack.TryGetValue(leftWhite, out var blackNote))
+            {
+                var key = NoteToKey[blackNote];
+                bool isPressed = PressedNote == blackNote;
+                // Position black key between the two white keys
+                <button class="black-key @(isPressed ? "pressed" : null)" style="left:@((i+1)*49-16)px" @onclick="() => PlayNote(blackNote)">
+                    @blackNote
+                    <span class="key-label">@key.ToUpper()</span>
+                </button>
+            }
+        }
+    </div>
 </div>
+
+
 
 
 <audio id="audio" />
 
 @code {
 
-    private string[] Notes = new[] { "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B", "C2" };
 
-    // Keyboard mapping: white keys and black keys
-    private readonly Dictionary<string, string> KeyToNote = new()
-    {
-        { "a", "C" }, { "w", "C#" }, { "s", "D" }, { "e", "D#" }, { "d", "E" }, { "f", "F" }, { "t", "F#" },
-        { "g", "G" }, { "y", "G#" }, { "h", "A" }, { "u", "A#" }, { "j", "B" }, { "k", "C2" }
+
+    // White keys (QWERTY row, starting at A2 on 'q')
+    private static readonly string[] WhiteNotes = new[] {
+        "A2", "B2", "C3", "D3", "E3", "F3", "G3", "A3", "B3", "C4", "D4", "E4", "F4",
+        "G4", "A4", "B4", "C5", "D5", "E5", "F5", "G5", "A5", "B5", "C6"
     };
-    private readonly Dictionary<string, string> NoteToKey;
+    // Black keys (sharps between white keys) - not needed for rendering
+    // Mapping from white note to black note (if any, for rendering)
+    private static readonly Dictionary<string, string> WhiteToBlack = new()
+    {
+        { "A2", "A#2" },
+        { "C3", "C#3" },
+        { "D3", "D#3" },
+        { "F3", "F#3" },
+        { "G3", "G#3" },
+        { "A3", "A#3" },
+        { "C4", "C#4" },
+        { "D4", "D#4" },
+        { "F4", "F#4" },
+        { "G4", "G#4" },
+        { "A4", "A#4" },
+        { "C5", "C#5" },
+        { "D5", "D#5" },
+        { "F5", "F#5" },
+        { "G5", "G#5" },
+        { "A5", "A#5" },
+        { "C6", "C#6" }
+    };
+    // Keyboard mapping for UI display and key events
+    private static readonly Dictionary<string, string> NoteToKey = new()
+    {
+        // QWERTY row
+        { "A2", "q" }, { "A#2", "2" }, { "B2", "w" }, { "C3", "e" }, { "C#3", "3" },
+        { "D3", "r" }, { "D#3", "4" }, { "E3", "t" }, { "F3", "y" }, { "F#3", "6" },
+        { "G3", "u" }, { "G#3", "7" }, { "A3", "i" }, { "A#3", "8" }, { "B3", "o" },
+        { "C4", "p" }, { "C#4", "0" }, { "D4", "[" }, { "D#4", "-" }, { "E4", "]" }, { "F4", "\\" }, { "F#4", "=" },
+        // zxcvbnm row (white)
+        { "G4", "z" }, { "A4", "x" }, { "B4", "c" }, { "C5", "v" }, { "D5", "b" }, { "E5", "n" }, { "F5", "m" }, { "G5", "," }, { "A5", "." }, { "B5", "/" }, { "C6", "'" },
+        // asdfghj row (black)
+        { "G#4", "a" }, { "A#4", "s" }, { "C#5", "d" }, { "D#5", "f" }, { "F#5", "g" }, { "G#5", "h" }, { "A#5", "j" }, { "C#6", "k" }
+    };
 
     private string? PressedNote = null;
 
+
+
     private bool IsSharp(string note) => note.Contains("#");
+
+
+
+    private string GetBlackKeyPosition(string note)
+    {
+        // Return a CSS left offset for each black key based on its position between white keys
+        return note switch
+        {
+            "A#2" => "35px",
+            "C#3" => "105px",
+            "D#3" => "175px",
+            "F#3" => "315px",
+            "G#3" => "385px",
+            _ => "0px"
+        };
+    }
 
     private async Task PlayNote(string note)
     {
@@ -63,11 +198,7 @@
 
     [Inject] IJSRuntime JS { get; set; }
 
-    public Piano()
-    {
-        // Reverse mapping for showing key on button
-        NoteToKey = KeyToNote.ToDictionary(x => x.Value, x => x.Key);
-    }
+
 
     [JSInvokable]
     public void SetPressedFromJs(string note)
